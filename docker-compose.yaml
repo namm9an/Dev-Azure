@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  node:
+    image: jatin1008/react:latest
+    build: /.
+    ports: 
+     - 3000:3000
